@@ -12,4 +12,21 @@ in the root package
 
 All dependencies are hosted in [Maven Central](http://mvnrepository.com/), so just running mvn:install will download the required dependencies.
 
+# Usage
+
+## 1. Create a database
+
+OrientDb supports multiple database [engines](http://orientdb.com/docs/last/Concepts.html#database-url), but for the sake of this tutorial, we will be making a database located on the same machine as the code.
+
+```java
+String path = "plocal:/path/to/db"
+String user = "admin"
+String pass = "admin"
+
+ODBFacade db = new ODBFacade(path, user, pass);
+db.create();
+```
+
+The above code will check if a db exists in the path specified, and will create it if it doesn't find one.
+
 (TO BE COMPLETED)
