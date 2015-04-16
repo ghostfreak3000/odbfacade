@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.terasoft.terautils.odbfacade.ODBFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.986 sec
