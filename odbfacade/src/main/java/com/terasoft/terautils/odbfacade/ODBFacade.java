@@ -763,28 +763,7 @@ public class ODBFacade {
 		
 		return result;
 	}
-
-	public List<ODocument> execCommand(String query)
-	{
-		db = ODatabaseDocumentPool.global().acquire(path, user, pass);
-		List<ODocument> result = execCommand(query, db);
-		db.close();
-		return result;
-	}
-	
-	private List<ODocument> execCommand(String query, ODatabaseDocument db){
 		
-		List<ODocument> result = new ArrayList<ODocument>();
-		
-		try{
-		result = db.command( new OSQLSynchQuery<ODocument>(query)); 
-		}
-		catch(OQueryParsingException oqpe){}
-		
-		return result;
-	}
-	
-	
 	public List<ODocument> execQuery(String query)
 	{
 		db = ODatabaseDocumentPool.global().acquire(path, user, pass);

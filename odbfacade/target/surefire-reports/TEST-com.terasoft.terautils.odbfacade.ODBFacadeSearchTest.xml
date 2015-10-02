@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="3.352" errors="0" skipped="0" tests="5" name="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest">
+<testsuite failures="0" time="1.911" errors="0" skipped="0" tests="5" name="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\ToolProjects\2015_MAVEN\TeraUtils\odbfacade"/>
+    <property name="user.dir" value="F:\ToolProjects\2015_MAVEN\repos\odbfacade\odbfacade"/>
     <property name="java.runtime.version" value="1.7.0_75-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\endorsed"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="F:\ToolProjects\2015_MAVEN\TeraUtils\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9165002231482974898.tmp"/>
+    <property name="classworlds.conf" value="F:\Maven\apache-maven-3.2.5\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_75\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\python_3.4\;F:\python_3.4\Scripts;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\Java\jdk1.7.0_51\bin;F:\Java_Scripts\bin;C:\Program Files (x86)\Microsoft\Microsoft Ajax Minifier;F:\Maven\apache-maven-3.2.5\bin;C:\Program Files\nodejs\;F:\GRADLE\gradle-2.2.1\bin;C:\Program Files\7-Zip\;F:\cURL\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Ruby21-x64\bin;C:\Users\Bishaka\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_75\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\python_3.4\;F:\python_3.4\Scripts;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\Java\jdk1.7.0_51\bin;F:\Java_Scripts\bin;C:\Program Files (x86)\Microsoft\Microsoft Ajax Minifier;F:\Maven\apache-maven-3.2.5\bin;C:\Program Files\nodejs\;F:\GRADLE\gradle-2.2.1\bin;C:\Program Files\7-Zip\;F:\cURL\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\AIRSDK\bin;C:\Users\Bishaka\Desktop\opencv\opencv\build\java\x64;F:\antlr_tutorials\lib;C:\Program Files\Java\jdk1.7.0_75\bin;F:\nwjs;C:\Program Files (x86)\Neurotechnology\Neurotec Biometric 5.1 SDK Trial\Bin\Win64_x64\NCore.dll;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\xamp\php;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Ruby21-x64\bin;C:\Users\Bishaka\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Bishaka\AppData\Local\atom\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -39,12 +39,11 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Bishaka"/>
-    <property name="java.class.path" value="/F:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.class.path" value="F:\Maven\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_75\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_75\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="F:\ToolProjects\2015_MAVEN\TeraUtils\odbfacade\EMBEDDED"/>
+    <property name="maven.home" value="F:\Maven\apache-maven-3.2.5"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,9 +60,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="2.971" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_withMultipleFilters"/>
-  <testcase time="0.013" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_nonExistingClassReturnsZero"/>
-  <testcase time="0.215" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_SrchTyp_eq"/>
-  <testcase time="0.071" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_returnsObjList"/>
-  <testcase time="0.082" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch"/>
+  <testcase time="1.789" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_withMultipleFilters"/>
+  <testcase time="0.002" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_nonExistingClassReturnsZero"/>
+  <testcase time="0.07" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_SrchTyp_eq"/>
+  <testcase time="0.023" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch_returnsObjList"/>
+  <testcase time="0.027" classname="com.terasoft.terautils.odbfacade.ODBFacadeSearchTest" name="canSearch"/>
 </testsuite>
