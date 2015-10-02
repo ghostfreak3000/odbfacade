@@ -37,7 +37,7 @@ public class ODBFacade {
 	private String path, user, pass;
 	private ODatabaseDocument db;
 	private final ObjectMapper XML = new XmlMapper();
-	private final ObjectMapper JSON = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);;
+	private final ObjectMapper JSON = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 		
 	public enum IO_TYP{
 		READ_STORAGE_LIST_DOCS,
@@ -763,7 +763,28 @@ public class ODBFacade {
 		
 		return result;
 	}
+
+	public List<ODocument> execCommand(String query)
+	{
+		db = ODatabaseDocumentPool.global().acquire(path, user, pass);
+		List<ODocument> result = execCommand(query, db);
+		db.close();
+		return result;
+	}
+	
+	private List<ODocument> execCommand(String query, ODatabaseDocument db){
 		
+		List<ODocument> result = new ArrayList<ODocument>();
+		
+		try{
+		result = db.command( new OSQLSynchQuery<ODocument>(query)); 
+		}
+		catch(OQueryParsingException oqpe){}
+		
+		return result;
+	}
+	
+	
 	public List<ODocument> execQuery(String query)
 	{
 		db = ODatabaseDocumentPool.global().acquire(path, user, pass);
